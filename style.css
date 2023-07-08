@@ -9,7 +9,7 @@
   }
 
 #wrapper2 {
-    width: 40%;     /* specify a width! */
+    width: 30%;     /* specify a width! */
     margin: 0 auto; /* center */
   }
 
@@ -68,7 +68,3 @@ nav a {
     padding: 8px; 
     margin-top: -10px;
 }
-
-.link { color: #FF0000; } /* CSS link color (red) */
-.link:hover { color: #00FF00; } /* CSS link hover (green) */
-  
