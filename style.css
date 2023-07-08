@@ -1,0 +1,74 @@
+#body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    align-items: center;
+}
+
+#wrapper {
+    width: 40%;     /* specify a width! */
+    margin: 0 auto; /* center */
+  }
+
+#wrapper2 {
+    width: 40%;     /* specify a width! */
+    margin: 0 auto; /* center */
+  }
+
+#mimi-plant {
+    border-radius: 20px;
+    border: 8px solid #8cd5ff ;
+}
+
+#mimi-bella {
+    border-radius: 8px;
+    border: 8px solid #8cd5ff ;
+}
+
+#awesome {
+    width: 29vw;
+}
+
+#hi {
+    width: 20vw;
+}
+
+nav a:hover {
+  color: #c9a4db
+}
+
+#navbar {
+    font-family: "Comic Sans Ms", "Comic Sans", cursive;
+    margin-bottom: 15px;
+}
+
+nav {
+  
+    background-color: #e2c5f0;
+    padding: 8px; 
+    top: 1;
+    border-radius: 8px;
+    width: 10vw;
+  }
+
+nav a {
+    color: purple;
+    text-shadow: 4px 4px 4px #b6e5fa;
+    margin: 10px 14.89px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+  }
+
+#link  {
+    background-color: #e2c5f0;
+    border-radius: 8px;
+    padding: 8px; 
+    margin-top: -10px;
+}
+
+.link { color: #FF0000; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
+  
