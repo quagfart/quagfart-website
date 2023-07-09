@@ -1,17 +1,9 @@
 #body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans";
     align-items: center;
 }
 
-#wrapper {
-    width: 40%;     /* specify a width! */
-    margin: 0 auto; /* center */
-  }
 
-#wrapper2 {
-    width: 30%;     /* specify a width! */
-    margin: 0 auto; /* center */
-  }
 
 #mimi-plant {
     border-radius: 20px;
@@ -28,7 +20,7 @@
 }
 
 #hi {
-    width: 20vw;
+    width: 30vw;
 }
 
 nav a:hover {
@@ -69,12 +61,11 @@ nav a {
     margin-top: -10px;
 }
 
+/* comic-neue-700 - latin */
 @font-face {
-  font-family: 'Out';
-  src: url('out.eot'); /* IE9 Compat Modes */
-  src: url('out.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('out.woff2') format('woff2'), /* Super Modern Browsers */
-       url('out.woff') format('woff'), /* Pretty Modern Browsers */
-       url('out.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('out.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Comic Neue';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/comic-neue-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
